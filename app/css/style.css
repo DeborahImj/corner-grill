@@ -22,12 +22,27 @@
 /*******************************************/
 
 :root {
+  --color-black: #000;
   --color-dark-green: #133E2B;
+  --color-off-white: #FEFAEE;
 }
 
 body {
+  color: var(--color-black);
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
 }
 
+h1, h2, h3, h4, p, ul, span, div, section, nav {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--color-black);
+  text-decoration: none;
+}
 
 /******************************************
 /* LAYOUT
@@ -36,7 +51,16 @@ body {
 /* NAVBAR */
 
 .navbar {
+  align-items: center;
   background: var(--color-dark-green);
+  color: var(--color-off-white);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.navbar a {
+  color: var(--color-off-white);
 }
 
 /******************************************
