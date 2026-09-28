@@ -21,20 +21,42 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
+:root {
+  --color-beige: #FFF7E8;
+  --color-dark-brown: #482820;
+  --color-light-brown: #7F675C;
 }
 
+body {
+  background: var(--color-beige);
+  color: var(--color-light-brown);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, p, ul, li, section, div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+.navbar {
+  align-items: center;
+  background: var(--color-beige);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 2.5rem;
+  position: sticky;
 }
 
-footer {
-
+.navbar a {
+  color: var(--color-dark-brown);
 }
 
 /******************************************
