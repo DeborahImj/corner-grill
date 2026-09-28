@@ -44,9 +44,19 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/fonts/inter-variable.woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-feature-settings: "blwf" on,"cv03" on,"cv04" on,"cv09" on,"cv11" on;
+}
+
 body {
   background: var(--color-off-white);
   color: var(--color-light-brown);
+  font-family: 'Inter', sans-serif;
   font-size: 1.25rem;
   margin: 0;
   padding: 0;
@@ -69,12 +79,17 @@ a {
   background: var(--color-off-white);
   display: flex;
   justify-content: space-between;
-  padding: 2rem 2.5rem;
+  padding: 1.75rem 2.5rem;
   position: sticky;
 }
 
 .navbar a {
   color: var(--color-dark-brown);
+}
+
+.nav-logo {
+  align-items: center;
+  display: flex;
 }
 
 .nav-logo a {
@@ -88,8 +103,24 @@ a {
 .nav-links {
   align-items: center;
   display: flex;
-  gap: 1rem;
+  gap: 2.5rem;
   justify-content: flex-end;
+}
+
+.nav-links a {
+  font-size: 1rem;
+  padding: 0 0 0.25rem 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-links a:hover {
+  border-bottom: 0.1rem solid var(--color-bright-red);
+  color: var(--color-bright-red);
+}
+
+.nav-cta {
+  background: var(--color-bright-red);
+  color: var(--color-white);
 }
 
 /******************************************
