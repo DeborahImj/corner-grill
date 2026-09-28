@@ -21,82 +21,20 @@
 /* BASE STYLES
 /*******************************************/
 
-@font-face {
-  font-family: 'Montserrat';
-  src: url('../assets/fonts/montserrat-variable-weight.woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Uniform Pro Ultra';
-  src: url('../assets/fonts/uniform-pro-ultra.woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-:root {
-  --color-black: #000;
-  --color-dark-green: #133E2B;
-  --color-off-white: #FEFAEE;
-}
-
 body {
-  color: var(--color-black);
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin: 0;
-  overflow-x: hidden;
-  padding: 0;
+
 }
 
-h1, h2, h3, h4, p, ul, span, div, section, nav {
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  color: var(--color-black);
-  text-decoration: none;
-}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+header {
 
-/* NAVBAR */
-
-.navbar {
-  align-items: center;
-  background: var(--color-dark-green);
-  color: var(--color-off-white);
-  display: flex;
-  justify-content: space-between;
-  padding: 1.5rem 4rem;
-  position: sticky;
 }
 
-.navbar a {
-  color: var(--color-off-white);
-}
+footer {
 
-.nav-links {
-  align-items: center;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.nav-links a {
-  font-size: 1rem;
-}
-
-.nav-logo a {
-  font-family: 'Uniform Pro Ultra', sans-serif;
-  font-size: 3rem;
-  font-weight: 200;
 }
 
 /******************************************
