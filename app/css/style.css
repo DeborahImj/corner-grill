@@ -21,6 +21,22 @@
 /* BASE STYLES
 /*******************************************/
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../assets/fonts/montserrat-variable-weight.woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Uniform Pro Ultra';
+  src: url('../assets/fonts/uniform-pro-ultra.woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --color-black: #000;
   --color-dark-green: #133E2B;
@@ -29,6 +45,9 @@
 
 body {
   color: var(--color-black);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
   margin: 0;
   overflow-x: hidden;
   padding: 0;
@@ -56,11 +75,28 @@ a {
   color: var(--color-off-white);
   display: flex;
   justify-content: space-between;
-  padding: 1rem 2rem;
+  padding: 1.5rem 4rem;
+  position: sticky;
 }
 
 .navbar a {
   color: var(--color-off-white);
+}
+
+.nav-links {
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  font-size: 1rem;
+}
+
+.nav-logo a {
+  font-family: 'Uniform Pro Ultra', sans-serif;
+  font-size: 3rem;
+  font-weight: 200;
 }
 
 /******************************************
