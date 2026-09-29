@@ -229,6 +229,44 @@ img {
 
 .home-section {
   background-image: url('../assets/images/home-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-wrapper {
+  position: relative;
+}
+
+.home-left-pepper {
+  flex: none;
+  height: 226px;
+  left: -34px;
+  overflow: clip;
+  position: absolute;
+  top: 97px;
+  width: 232px;
+}
+
+.home-left-pepper div {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.home-left-pepper img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.home-right-pepper {
+  height: 311px;
+  overflow: clip;
 }
 
 /******************************************
