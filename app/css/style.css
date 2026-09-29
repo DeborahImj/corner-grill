@@ -42,6 +42,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  font-feature-settings: "blwf" on,"cv03" on,"cv04" on,"cv09" on,"cv11" on;
 }
 
 @font-face {
@@ -62,6 +63,7 @@ body {
   color: var(--color-light-brown);
   font-family: 'Inter', sans-serif;
   font-size: 1.25rem;
+  font-weight: 400;
   margin: 0;
   overflow-x: clip;
   padding: 0;
@@ -296,10 +298,24 @@ img {
   width: 100%;
 }
 
+.home-content {
+  position: relative;
+  z-index: 10;
+}
+
 .home-tagline {
-  align-items: center;
-  display: flex;
-  justify-content: center;
+  font-size: 1.125rem;
+  letter-spacing: 0em;
+  line-height: 1.5rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.home-section h1 {
+  font-family: 'Tanker';
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  line-height: 1.15em;
 }
 
 /******************************************
