@@ -80,7 +80,9 @@ a {
   display: flex;
   justify-content: space-between;
   padding: 1.75rem 2.5rem;
-  position: sticky;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 }
 
 .nav-logo {
@@ -142,11 +144,27 @@ a {
   border-radius: 0.5rem;
   height: 0.125rem;
   transition: all 0.3s ease-in-out;
+  transform-origin: center;
   width: 1.4rem;
 }
 
-.nav-burger:hover span {
-  background: var(--color-yellow);
+.nav-burger.active span.first {
+  transform: translateY(0.3375rem) rotate(45deg);
+}
+
+.nav-burger.active span.second {
+  transform: translateY(-0.3375rem) rotate(-45deg);
+}
+
+.nav-menu {
+  background: var(--color-off-white);
+  height: 100vh;
+  top: -100vh;
+  width: 100%;
+}
+
+.nav-menu.active {
+  top: 0;
 }
 
 @media screen and (max-width: 800px) {
