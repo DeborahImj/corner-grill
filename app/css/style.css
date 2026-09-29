@@ -71,6 +71,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 10rem;
+}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -218,6 +222,13 @@ a {
   .nav-burger {
     display: flex;
   }
+}
+
+
+/* HOME SECTION */
+
+.home-section {
+  background-image: url('../assets/images/home-bg.png');
 }
 
 /******************************************
