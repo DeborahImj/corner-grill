@@ -53,12 +53,17 @@
   font-feature-settings: "blwf" on,"cv03" on,"cv04" on,"cv09" on,"cv11" on;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--color-off-white);
   color: var(--color-light-brown);
   font-family: 'Inter', sans-serif;
   font-size: 1.25rem;
   margin: 0;
+  overflow-x: clip;
   padding: 0;
 }
 
@@ -83,7 +88,7 @@ img {
   background: var(--color-off-white);
   display: flex;
   justify-content: space-between;
-  padding: 1.75rem 2.5rem;
+  padding: 1.5rem 2.5rem;
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -232,20 +237,21 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.home-wrapper {
+  color: var(--color-white);
+  padding: 10rem 0 0 0;
   position: relative;
+  scroll-margin-top: 6rem;
+  text-align: center;
 }
 
 .home-left-pepper {
   flex: none;
-  height: 226px;
-  left: -34px;
+  height: 14.125rem;
+  left: -2.125rem;
   overflow: clip;
   position: absolute;
-  top: 97px;
-  width: 232px;
+  top: 6.0625rem;
+  width: 14.5rem;
 }
 
 .home-left-pepper div {
@@ -265,8 +271,35 @@ img {
 }
 
 .home-right-pepper {
-  height: 311px;
+  flex: none;
+  height: 19.4375rem;
   overflow: clip;
+  position: absolute;
+  right: -4.625rem;
+  top: 6.6875rem;
+  width: 19.375rem;
+}
+
+.home-right-pepper div {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.home-right-pepper img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.home-tagline {
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 /******************************************
