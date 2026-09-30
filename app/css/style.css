@@ -385,7 +385,7 @@ img {
 /* SPECIALS SECTION */
 
 .specials-section {
-  padding: 2rem 2rem 0 2rem;
+  padding: 2rem 2rem 6rem 2rem;
   text-align: center;
 }
 
@@ -440,13 +440,21 @@ img {
 
 .specials-gallery img {
   border-radius: 1rem;
-  margin: 0 0 1rem 0;
+  margin: 0 0 1.25rem 0;
   width: 100%;
 }
 
 .specials-gallery p {
-  font-size: 1.25rem;
-  font-weight: 500;
+  color: var(--color-dark-brown);
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+
+/* MENU SECTION */
+
+.menu-section {
+  scroll-margin-top: 6rem;
 }
 
 /******************************************
