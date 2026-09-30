@@ -240,7 +240,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--color-white);
-  padding: 10rem 0 0 0;
+  padding: 11rem 0 0 0;
   position: relative;
   scroll-margin-top: 6rem;
   text-align: center;
@@ -307,7 +307,7 @@ img {
   font-size: 1.125rem;
   letter-spacing: 0em;
   line-height: 1.5rem;
-  margin: 0 0 1.5rem 0;
+  margin: 0 0 2rem 0;
 }
 
 .home-section h1 {
@@ -316,6 +316,40 @@ img {
   font-weight: 400;
   letter-spacing: -0.025em;
   line-height: 1.15em;
+}
+
+.home-gallery {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50%;
+  margin-top: -6.5rem;
+  position: relative;
+  transform: translateX(-50%);
+  width: 125%;
+  z-index: 15;
+}
+
+.home-gallery div {
+  width: 33.333%;
+}
+
+.home-gallery div.larger {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.home-gallery img {
+  width: 100%;
+}
+
+.home-gallery img.larger {
+  width: 120%;
+}
+
+.home-gallery img.smaller {
+  width: 65%;
 }
 
 /******************************************
