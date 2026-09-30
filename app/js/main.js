@@ -16,5 +16,6 @@ const navMenuLinks = document.querySelectorAll('.nav-menu-link');
 Array.from(navMenuLinks).forEach(element => element.addEventListener('click', closeNavMenu));
 
 function closeNavMenu() {
+  navBurger.classList.toggle('active');
   navMenu.classList.toggle('active');
 }

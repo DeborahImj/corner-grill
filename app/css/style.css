@@ -240,6 +240,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--color-white);
+  overflow-x: hidden;
   padding: 11rem 0 0 0;
   position: relative;
   scroll-margin-top: 6rem;
@@ -350,6 +351,34 @@ img {
 
 .home-gallery img.smaller {
   width: 65%;
+}
+
+@media screen and (max-width: 800px) {
+  .home-section {
+    padding: 10rem 0 5rem 0;
+  }
+  .home-left-pepper {
+    height: 8.4375rem;
+    left: -2.3125rem;
+    top: 7.4375rem;
+    width: 8.4375rem;
+  }
+  .home-right-pepper {
+    height: 7.9375rem;
+    right: -2rem;
+    top: 5.75rem;
+    width: 7.9375rem;
+  }
+  .home-section h1 {
+    font-size: 2.5rem;
+  }
+  .home-gallery {
+    margin-top: -2.5rem;
+    width: 135%;
+  }
+  .home-gallery img.larger {
+    width: 140%;
+  }
 }
 
 /******************************************
