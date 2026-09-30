@@ -60,7 +60,7 @@ html {
 
 body {
   background: var(--color-off-white);
-  color: var(--color-light-brown);
+  color: var(--color-dark-brown);
   font-family: 'Inter', sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
@@ -379,6 +379,38 @@ img {
   .home-gallery img.larger {
     width: 140%;
   }
+}
+
+
+/* SPECIALS SECTION */
+
+.specials-section {
+  text-align: center;
+}
+
+.section-tag {
+  align-items: center;
+  display: flex;
+  gap: 0.625rem;
+  padding: 0.25rem 1.5rem;
+}
+
+.section-tag-dot {
+  background: var(--color-bright-red);
+  border-radius: 50%;
+  height: 0.375rem;
+  width: 0.375rem;
+}
+
+.section-tag-p {
+  font-size: 0.875rem;
+  line-height: 1.7rem;
+}
+
+.section-h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2rem;
 }
 
 /******************************************
