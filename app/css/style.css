@@ -492,8 +492,33 @@ img {
   background: var(--color-dark-red);
   border-radius: 2.5rem 0 2.5rem 0;
   color: var(--color-white);
+  overflow: hidden;
   padding: 0.75rem 0;
+  position: relative;
+  transition: all 0.3s ease-in-out;
   width: 17rem;
+}
+
+.section-cta-hover {
+  background: var(--color-yellow);
+  border-radius: 2.5rem 0 2.5rem 0;
+  bottom: -3rem;
+  height: 85%;
+  left: 5%;
+  position: absolute;
+  transform: scale(0);
+  width: 90%;
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+}
+
+.section-cta:hover {
+  color: var(--color-black);
+}
+
+.section-cta:hover .section-cta-hover {
+  bottom: 0;
+  transform: scale(1);
 }
 
 .section-cta-content {
@@ -501,6 +526,8 @@ img {
   display: flex;
   gap: 0.5rem;
   justify-content: center;
+  position: relative;
+  z-index: 3;
 }
 
 .section-cta-content p {
@@ -508,11 +535,17 @@ img {
 }
 
 .section-cta-content svg {
+  stroke: var(--color-white);
+  transition: all 0.3s ease-in-out;
   width: 2rem;
 }
 
+.section-cta:hover .section-cta-content svg {
+  stroke: var(--color-black);
+}
+
 .menu-items {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
   gap: 1.25rem;
@@ -528,8 +561,21 @@ img {
   width: calc(33.333% - 0.833rem);
 }
 
-.menu-item-top img {
-  width: 100%;
+.menu-item-top {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15rem;
+}
+
+.menu-item-top:first-of-type {
+  background-image: url('../assets/images/menu-dish1.jpg');
+}
+
+.menu-item-top:nth-of-type(2) {}
+
+.menu-item-bottom {
+  padding: 2rem 3rem;
 }
 
 /******************************************
