@@ -355,7 +355,7 @@ img {
 
 @media screen and (max-width: 800px) {
   .home-section {
-    padding: 10rem 0 5rem 0;
+    padding: 10rem 0 3rem 0;
   }
   .home-left-pepper {
     height: 8.4375rem;
@@ -448,6 +448,29 @@ img {
   color: var(--color-dark-brown);
   font-size: 1.15rem;
   font-weight: 700;
+}
+
+@media screen and (max-width: 800px) {
+  .specials-section {
+    padding: 0 1.25rem 4rem 1.25rem;
+  }
+  .section-tag {
+    gap: 0.6rem;
+  }
+  .section-tag-dot {
+    height: 0.4rem;
+    width: 0.4rem;
+  }
+  .section-tag-p {
+    font-size: 0.9rem;
+  }
+  .section-h2 {
+    font-size: 2rem;
+    margin: 1.5rem 0 2.25rem 0;
+  }
+  .section-p {
+    width: 100%;
+  }
 }
 
 
@@ -554,18 +577,18 @@ img {
 
 .menu-item {
   background: var(--color-dark-red);
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  width: calc(33.333% - 0.833rem);
+  width: calc(50% - 0.625rem);
 }
 
 .menu-item-top {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 15rem;
+  height: 18rem;
 }
 
 .menu-item-top.burger {
@@ -590,19 +613,21 @@ img {
 
 .menu-item-bottom {
   display: flex;
-  padding: 2rem 1.75rem;
+  padding: 1.5rem 2rem;
 }
 
 .menu-item-details h3 {
   font-family: 'Tanker', sans-serif;
+  font-size: 1.6rem;
   font-weight: 400;
-  margin: 0 0 1rem 0;
+  margin: 0 0 1.15rem 0;
 }
 
 .menu-item-details p {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
-  line-height: 1.5rem;
+  line-height: 2rem;
+  width: 75%;
 }
 
 /******************************************
