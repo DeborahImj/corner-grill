@@ -457,6 +457,16 @@ img {
   scroll-margin-top: 6rem;
 }
 
+.menu-cta {
+  background: var(--color-dark-red);
+  border: 2.5rem 0 2.5rem 0;
+  cursor: pointer;
+  flex-flow: row;
+  height: min-content;
+  overflow: clip;
+  will-change: transform;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
