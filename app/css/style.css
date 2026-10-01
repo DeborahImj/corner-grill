@@ -568,14 +568,41 @@ img {
   height: 15rem;
 }
 
-.menu-item-top:first-of-type {
+.menu-item-top.burger {
   background-image: url('../assets/images/menu-dish1.jpg');
 }
 
-.menu-item-top:nth-of-type(2) {}
+.menu-item-top.shawarma {
+  background-image: url('../assets/images/menu-dish2.jpg');
+}
+
+.menu-item-top.pizza {
+  background-image: url('../assets/images/menu-dish3.jpg');
+}
+
+.menu-item-top.fries {
+  background-image: url('../assets/images/menu-dish4.jpg');
+}
+
+.menu-item-top.chicken {
+  background-image: url('../assets/images/menu-dish5.jpg');
+}
 
 .menu-item-bottom {
-  padding: 2rem 3rem;
+  display: flex;
+  padding: 2rem 1.75rem;
+}
+
+.menu-item-details h3 {
+  font-family: 'Tanker', sans-serif;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+}
+
+.menu-item-details p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
 }
 
 /******************************************
