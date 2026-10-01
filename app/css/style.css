@@ -454,7 +454,40 @@ img {
 /* MENU SECTION */
 
 .menu-section {
+  background: var(--color-bright-red);
+  color: var(--color-white);
+  padding: 4rem 2rem;
   scroll-margin-top: 6rem;
+}
+
+.menu-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-section .section-tag {
+  justify-content: flex-start;
+}
+
+.menu-section .section-tag-dot {
+  background: var(--color-white);
+}
+
+.menu-section .section-p {
+  color: var(--color-white);
+  font-weight: 200;
+  letter-spacing: normal;
+  margin: 0;
+  width: 40%;
+}
+
+.section-cta {
+  background: var(--color-dark-red);
+  border-radius: 2.5rem 0 2.5rem 0;
+  color: var(--color-white);
+  display: flex;
+  padding: 1rem;
 }
 
 
