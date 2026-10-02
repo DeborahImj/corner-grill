@@ -706,7 +706,53 @@ img {
 /* ABOUT SECTION */
 
 .about-section {
+  padding: 4rem 2rem;
   scroll-margin-top: 6rem;
+}
+
+.about-top {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.about-top-left {
+  width: calc(50% - 1rem);
+}
+
+.about-top-left img {
+  width: 100%;
+}
+
+.about-top-right {
+  width: calc(50% - 1rem);
+}
+
+.about-section .section-tag {
+  justify-content: flex-start;
+}
+
+.about-section .section-h2 {
+  line-height: 3.75rem;
+  margin: 2rem 0 2rem 0;
+}
+
+.about-section .section-p {
+  font-weight: 400;
+  margin: 0 0 3rem 0;
+  width: 96%;
+}
+
+.about-top-right h3 {
+  font-family: 'Tanker', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 0 1.75rem 0;
+}
+
+.about-top-right .schedule {
+  font-size: 1.5rem;
 }
 
 /******************************************
