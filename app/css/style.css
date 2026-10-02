@@ -702,6 +702,13 @@ img {
   }
 }
 
+
+/* ABOUT SECTION */
+
+.about-section {
+  scroll-margin-top: 6rem;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
