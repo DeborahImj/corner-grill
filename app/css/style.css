@@ -839,7 +839,46 @@ img {
 /* GALLERY SECTION */
 
 .gallery-section {
+  padding: 2rem 2rem 0 2rem;
   scroll-margin-top: 6rem;
+  text-align: center;
+}
+
+.gallery-section .section-p {
+  color: var(--color-light-brown);
+  font-weight: 400;
+}
+
+.gallery-display {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.gallery-column {
+  width: calc(33.333% - 0.67rem);
+}
+
+.gallery-image.tall {
+  height: 20rem
+}
+
+.gallery-image.short {
+  height: 15rem;
+}
+
+.gallery-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-image.one {
+  background-image: url('../assets/images/gallery-dish1.jpg');
+}
+
+.gallery-image.two {
+  background-image: url('../assets/');
 }
 
 /******************************************
