@@ -707,7 +707,7 @@ img {
 /* ABOUT SECTION */
 
 .about-section {
-  padding: 4rem 2rem;
+  padding: 4rem 2rem 5rem 2rem;
   scroll-margin-top: 6rem;
 }
 
@@ -768,12 +768,70 @@ img {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin: 2rem 0 0 0;
+  margin: 3.5rem 0 0 0;
+  padding: 0 2rem;
   text-align: center;
 }
 
 .about-metric h3 {
   font-family: 'Tanker', sans-serif;
+  font-size: 5.25rem;
+  font-weight: 400;
+  margin: 0 0 1.25rem 0;
+}
+
+.about-metric span {
+  color: var(--color-light-brown);
+}
+
+@media screen and (max-width: 800px) {
+  .about-section {
+    padding: 3.5rem 1.25rem 4rem 1.25rem;
+  }
+  .about-top {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .about-top-left {
+    width: 100%;
+  }
+  .about-top-right {
+    width: 100%;
+  }
+  .about-section .section-h2 {
+    line-height: 2.5rem;
+    margin: 1rem 0 1rem 0;
+    width: 90%;
+  }
+  .about-section .section-p {
+    margin: 0 0 1.75rem 0;
+  }
+  .about-top-right h3 {
+    font-size: 1.5rem;
+    margin: 0 0 1.25rem 0;
+  }
+  .about-top-right .schedule {
+    font-size: 0.95rem;
+    margin: 0 0 0.5rem 0;
+  }
+  .about-section .section-cta {
+    margin: 1rem 0 0 0;
+  }
+  .about-bottom {
+    flex-wrap: wrap;
+    margin: 2.5rem 0 0 0;
+    padding: 0;
+  }
+  .about-metric {
+    width: 50%;
+  }
+  .about-metric h3 {
+    font-size: 3.5rem;
+    margin: 0 0 1rem 0;
+  }
+  .about-metric span {
+    font-size: 1.15rem;
+  }
 }
 
 /******************************************
