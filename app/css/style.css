@@ -819,6 +819,7 @@ img {
   }
   .about-bottom {
     flex-wrap: wrap;
+    gap: 2rem 0;
     margin: 2.5rem 0 0 0;
     padding: 0;
   }
@@ -826,12 +827,19 @@ img {
     width: 50%;
   }
   .about-metric h3 {
-    font-size: 3.5rem;
-    margin: 0 0 1rem 0;
+    font-size: 2.75rem;
+    margin: 0 0 0.75rem 0;
   }
   .about-metric span {
-    font-size: 1.15rem;
+    font-size: 0.9rem;
   }
+}
+
+
+/* GALLERY SECTION */
+
+.gallery-section {
+  scroll-margin-top: 6rem;
 }
 
 /******************************************
