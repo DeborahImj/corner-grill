@@ -652,7 +652,53 @@ img {
 
 @media screen and (max-width: 800px) {
   .menu-section {
-    padding: 3rem 1.25rem 3rem 1.25rem;
+    padding: 3.5rem 1.25rem 4rem 1.25rem;
+  }
+  .menu-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .menu-section .section-p {
+    margin: 0 0 1rem 0;
+    width: 100%;
+  }
+  .menu-header-right {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .section-cta {
+    width: 14rem;
+  }
+  .section-cta-content p {
+    font-size: 0.9rem;
+  }
+  .section-cta-content svg {
+    width: 1.5rem;
+  }
+  .menu-items {
+    flex-direction: column;
+    margin: 3rem 0 0 0;
+  }
+  .menu-item {
+    width: 100%;
+  }
+  .menu-item-top {
+    height: 16rem;
+  }
+  .menu-item-bottom {
+    padding: 1.25rem 1.5rem;
+  }
+  .menu-item-details h3 {
+    font-size: 1.4rem;
+    margin: 0 0 0.75rem 0;
+  }
+  .menu-item-details p {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    width: 100%
+  }
+  .menu-item-price {
+    font-size: 1.25rem;
   }
 }
 
