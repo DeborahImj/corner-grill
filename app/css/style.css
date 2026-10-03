@@ -981,6 +981,40 @@ img {
   width: 100%;
 }
 
+.swiper-buttons {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: flex-end;
+  padding: 0 2rem 0 0;
+}
+
+.swipe-button-prev, .swipe-button-next {
+  background: var(--color-white);
+  border-radius: 1.5rem 0 1.5rem 0;
+  padding: 0.75rem 1rem;
+}
+
+.swiper-buttons svg {
+  width: 1.75rem;
+}
+
+@media screen and (max-width: 800px) {
+  .reviews-section {
+    padding: 4rem 1.25rem 4rem 1.25rem;
+  }
+  .review-card {
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+  .review-headshot {
+    border-radius: 2rem;
+    width: 100%;
+  }
+  .review-card-right {
+    width: 100%;
+  }
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
