@@ -981,17 +981,6 @@ img {
   width: 100%;
 }
 
-.swiper-buttons {
-  align-items: center;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.swiper-button-prev, .swiper-button-next {
-  background: var(--color-white);
-  color: var(--color-bright-red);
-}
-
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
