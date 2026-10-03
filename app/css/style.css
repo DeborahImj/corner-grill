@@ -921,7 +921,21 @@ img {
 /* REVIEWS SECTION */
 
 .reviews-section {
+  background: var(--color-bright-red);
+  color: var(--color-white);
+  padding: 5rem 2rem 5rem 2rem;
   scroll-margin-top: 6rem;
+}
+
+.swiper {
+  height: 50rem;
+  width: 100%;
+}
+
+.review-card {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
 }
 
 /******************************************
