@@ -917,6 +917,13 @@ img {
   }
 }
 
+
+/* REVIEWS SECTION */
+
+.reviews-section {
+  scroll-margin-top: 6rem;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
