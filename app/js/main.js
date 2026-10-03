@@ -19,3 +19,19 @@ function closeNavMenu() {
   navBurger.classList.toggle('active');
   navMenu.classList.toggle('active');
 }
+
+// REVIEWS SWIPER
+
+const swiper = new Swiper('.swiper', {
+  effect: 'cube',
+  grabCursor: true,
+  cubeEffect: {
+    shadow: false,
+    slideShadows: false,
+  },
+  speed: 500,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
