@@ -1063,6 +1063,7 @@ img {
 
 .contact-section .section-p {
   color: var(--color-bright-red);
+  font-weight: 400;
   width: 47%;
 }
 
@@ -1083,6 +1084,43 @@ img {
     font-weight: 200;
     width: 100%;
   }
+}
+
+
+/* FOOTER SECTION */
+
+.footer-section {
+  color: var(--color-white);
+}
+
+.footer-top {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
+
+.footer-logo {
+  color: #FEC752;
+  font-family: 'Tanker', sans-serif;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.footer-top-right h3 {
+  font-family: 'Tanker', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0 0 1rem 0;
+}
+
+.footer-top-right p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.footer-socials {
+  width: 2.5rem;
 }
 
 /******************************************
