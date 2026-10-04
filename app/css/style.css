@@ -1051,25 +1051,26 @@ img {
 
 .contact-section {
   color: var(--color-bright-red);
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
   scroll-margin-top: 6rem;
   text-align: center;
 }
 
 .contact-section .section-h2 {
   line-height: 3.75rem;
-  margin: 0 0 1rem 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .contact-section .section-p {
   color: var(--color-bright-red);
   font-weight: 400;
+  line-height: 1.5rem;
   width: 47%;
 }
 
 .contact-section .section-cta {
   display: inline-block;
-  margin: 2rem 0 0 0;
+  margin: 1rem 0 0 0;
 }
 
 @media screen and (max-width: 800px) {
@@ -1095,9 +1096,10 @@ img {
 
 .footer-top {
   align-items: center;
+  border-bottom: 0.1rem solid #ffffff85;
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 2rem;
+  padding: 3rem 3rem 2.5rem 2rem;
 }
 
 .footer-logo {
@@ -1116,11 +1118,56 @@ img {
 
 .footer-top-right p {
   font-size: 1.25rem;
-  line-height: 1.75rem;
+  font-weight: 400;
+  line-height: 2.25rem;
+}
+
+.footer-bottom {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+}
+
+.footer-bottom p {
+  font-size: 1.15rem;
+  font-weight: 400;
 }
 
 .footer-socials {
-  width: 2.5rem;
+  align-items: center;
+  display: flex;
+  gap: 1.25rem;
+  justify-content: flex-end;
+}
+
+.footer-socials svg {
+  width: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .footer-top {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3rem 1.25rem 2.5rem 1.25rem;
+  }
+  .footer-logo {
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+  }
+  .footer-top-right h3 {
+    margin: 0 0 0.75rem 0;
+  }
+  .footer-top-right p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
 }
 
 /******************************************
